@@ -61,7 +61,10 @@ export default function Navigation() {
 
           {/* Action Buttons */}
           <div className="hidden lg:flex items-center space-x-4">
-            <Button variant="outline" asChild>
+            <Button
+              className="bg-blue-600 hover:bg-blue-700 text-white border-blue-600 hover:border-blue-700"
+              asChild
+            >
               <Link to="/dashboard">
                 <Users className="w-4 h-4 mr-2" />
                 Espace Membre
@@ -110,7 +113,10 @@ export default function Navigation() {
               </Link>
             ))}
             <div className="pt-4 space-y-3 border-t border-border">
-              <Button variant="outline" className="w-full" asChild>
+              <Button
+                className="w-full bg-blue-600 hover:bg-blue-700 text-white border-blue-600 hover:border-blue-700"
+                asChild
+              >
                 <Link to="/dashboard">
                   <Users className="w-4 h-4 mr-2" />
                   Espace Membre

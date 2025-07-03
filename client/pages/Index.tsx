@@ -136,7 +136,7 @@ export default function Index() {
             <div className="relative">
               <div className="aspect-[4/3] bg-gradient-to-br from-primary/20 to-secondary/20 rounded-2xl overflow-hidden">
                 <img
-                  src="/api/placeholder/600/450"
+                  src="https://se-international.org/images/sei_image/sei-1.jpg"
                   alt="SE International en action"
                   className="w-full h-full object-cover"
                 />
