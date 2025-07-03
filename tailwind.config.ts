@@ -57,10 +57,11 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
-        humanitarian: {
-          blue: "213 94% 68%",
-          green: "164 76% 39%",
-          navy: "221 39% 11%",
+        nature: {
+          green: "142 69% 58%",
+          "green-dark": "138 45% 25%",
+          "green-light": "142 35% 85%",
+          luxury: "0 0% 100%",
         },
       },
       borderRadius: {

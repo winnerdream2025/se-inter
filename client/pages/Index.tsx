@@ -395,8 +395,12 @@ export default function Index() {
           <div className="grid md:grid-cols-4 gap-8">
             <div className="md:col-span-2">
               <div className="flex items-center space-x-3 mb-4">
-                <div className="flex items-center justify-center w-10 h-10 bg-primary rounded-full">
-                  <Globe className="w-6 h-6 text-white" />
+                <div className="flex items-center justify-center w-12 h-12 bg-white rounded-full overflow-hidden">
+                  <img
+                    src="https://static.wixstatic.com/media/ad6561_5d52161614f94c909170f7fe4eedf4c9~mv2.png/v1/crop/x_0,y_14,w_300,h_253/fill/w_344,h_338,al_c,lg_1,q_85,enc_auto/site-logo300.png"
+                    alt="SE International Logo"
+                    className="w-10 h-10 object-contain"
+                  />
                 </div>
                 <div>
                   <div className="text-lg font-bold">SE International</div>

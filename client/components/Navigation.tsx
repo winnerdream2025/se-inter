@@ -24,8 +24,12 @@ export default function Navigation() {
         <div className="flex justify-between items-center py-4">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-3">
-            <div className="flex items-center justify-center w-12 h-12 bg-primary rounded-full">
-              <Globe className="w-7 h-7 text-white" />
+            <div className="flex items-center justify-center w-14 h-14 bg-white rounded-full shadow-sm border border-border overflow-hidden">
+              <img
+                src="https://static.wixstatic.com/media/ad6561_5d52161614f94c909170f7fe4eedf4c9~mv2.png/v1/crop/x_0,y_14,w_300,h_253/fill/w_344,h_338,al_c,lg_1,q_85,enc_auto/site-logo300.png"
+                alt="SE International Logo"
+                className="w-12 h-12 object-contain"
+              />
             </div>
             <div className="hidden sm:block">
               <div className="text-xl font-bold text-foreground">
